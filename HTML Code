@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/youtube.css">
+    </head>
+    <body>
+        <div class="big-one">
+            <div class="Video">
+                <div>
+                    <img class="Thumbnail" src="Thumbnails/thumbnail-1.webp" alt="">
+                </div>
+                <div class="big-second-div">
+                    <div class="div-Channel-profile" >
+                        <img class="Channel-profile" src="/Thumbnails/channel-1.jpeg" alt="">
+                    </div>
+                    <div class="Video-info">
+                        <p class="Title">
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        
+                        <p class="Channel-name">
+                            Marques Brownlee
+                        </p>
+                        <p class="States">
+                            3.4M views · 6 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Video">
+                <div>
+                    <img class="Thumbnail" src="Thumbnails/thumbnail-2.webp" alt="">
+                </div>
+                <div class="big-second-div">
+                    <div class="div-Channel-profile" >
+                        <img class="Channel-profile" src="/Thumbnails/channel-2.jpeg" alt="">
+                    </div>
+                    <div class="Video-info">
+                        <p class="Title">
+                            Try Not To Laugh Challenge #9
+                        </p>
+                        
+                        <p class="Channel-name">
+                            Markiplier
+                        </p>
+                        <p class="States">
+                            19M views · 4 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Video">
+                <div>
+                    <img class="Thumbnail" src="Thumbnails/download.jpeg" alt="">
+                </div>
+                <div class="big-second-div">
+                    <div class="div-Channel-profile" >
+                        <img class="Channel-profile" src="/Thumbnails/channel-3.jpeg" alt="">
+                    </div>
+                    <div class="Video-info">
+                        <p class="Title">
+                            Crazy Tik Toks Taken Moments Before DISASTER
+                        </p>
+                        
+                        <p class="Channel-name">
+                            SSSniperWolf
+                        </p>
+                        <p class="States">
+                            12M views · 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Video">
+                <div>
+                    <img class="Thumbnail" src="Thumbnails/thumbnail-4.webp" alt="">
+                </div>
+                <div class="big-second-div">
+                    <div class="div-Channel-profile" >
+                        <img class="Channel-profile" src="/Thumbnails/channel-4.jpeg" alt="">
+                    </div>
+                    <div class="Video-info">
+                        <p class="Title">
+                            The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                        </p>
+                        <p class="Channel-name">
+                            Veritasium
+                        </p>
+                        <p class="States">
+                            18M views · 4 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Video">
+                <div>
+                    <img class="Thumbnail" src="Thumbnails/thumbnail-5.webp" alt="">
+                </div>
+                <div class="big-second-div">
+                    <div class="div-Channel-profile" >
+                        <img class="Channel-profile" src="/Thumbnails/channel-5.jpeg" alt="">
+                    </div>
+                    <div class="Video-info">
+                        <p class="Title">
+                            
+                            Kadane's Algorithm to Maximum Sum Subarray Problem
+                        </p>
+                        
+                        <p class="Channel-name">
+                            CS Dojo
+                        </p>
+                        <p class="States">
+                            519K views · 5 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Video">
+                <div>
+                    <img class="Thumbnail" src="Thumbnails/thumbnail-6.webp" alt="">
+                </div>
+                <div class="big-second-div">
+                    <div class="div-Channel-profile" >
+                        <img class="Channel-profile" src="/Thumbnails/channel-6.jpeg" alt="">
+                    </div>
+                    <div class="Video-info">
+                        <p class="Title">
+                            Anything You Can Fit In The Circle I’ll Pay For
+                        </p>
+                        <p class="Channel-name">
+                            MrBeast
+                        </p>
+                        <p class="States">
+                            141M views · 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Video">
+                <div>
+                    <img class="Thumbnail" src="Thumbnails/thumbnail-7.webp" alt="">
+                </div>
+                <div class="big-second-div">
+                    <div class="div-Channel-profile" >
+                        <img class="Channel-profile" src="/Thumbnails/channel-7.jpeg" alt="">
+                    </div>
+                    <div class="Video-info">
+                        <p class="Title">
+                            Why Planes Don't Fly Over Tibet
+                        </p>
+                        <p class="Channel-name">
+                            RealLifeLore
+                        </p>
+                        <p class="States">
+                            6.6M views · 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Video">
+                <div>
+                    <img class="Thumbnail" src="Thumbnails/thumbnail-8.webp" alt="">
+                </div>
+                <div class="big-second-div">
+                    <div class="div-Channel-profile" >
+                        <img class="Channel-profile" src="/Thumbnails/channel-8.jpeg" alt="">
+                    </div>
+                    <div class="Video-info">
+                        <p class="Title">
+                            Inside The World's Biggest Passenger Plane
+                        </p>
+                        
+                        <p class="Channel-name">
+
+                            Tech Vision
+                        </p>
+                        <p class="States">
+                            3.7M views · 10 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Video">
+                <div>
+                    <img class="Thumbnail" src="Thumbnails/thumbnail-9.webp" alt="">
+                </div>
+                <div class="big-second-div">
+                    <div class="div-Channel-profile" >
+                        <img class="Channel-profile" src="/Thumbnails/channel-9.jpeg" alt="">
+                    </div>
+                    <div class="Video-info">
+                        <p class="Title">
+                            The SECRET to Super Human STRENGTH
+                        </p>
+                        
+                        <p class="Channel-name">
+                            ThenX
+                        </p>
+                        <p class="States">
+                            20M views · 3 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Video">
+                <div>
+                    <img class="Thumbnail" src="Thumbnails/thumbnail-10.webp">
+                </div>
+                <div class="big-second-div">
+                    <div class="div-Channel-profile" >
+                        <img class="Channel-profile" src="/Thumbnails/channel-10.jpeg" alt="">
+                    </div>
+                    <div class="Video-info">
+                        <p class="Title">
+                            How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+                        </p>
+                        
+                        <p class="Channel-name">
+                            Business Insider
+                        </p>
+                        <p class="States">
+                            14M views · 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Video">
+                <div>
+                    <img class="Thumbnail" src="Thumbnails/thumbnail-11.webp" alt="">
+                </div>
+                <div class="big-second-div">
+                    <div class="div-Channel-profile" >
+                        <img class="Channel-profile" src="/Thumbnails/channel-11.jpeg" alt="">
+                    </div>
+                    <div class="Video-info">
+                        <p class="Title">
+                            Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+                        </p>
+                        
+                        <p class="Channel-name">
+                            Destination Tips
+                        </p>
+                        <p class="States">
+                            3M views · 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Video">
+                <div>
+                    <img class="Thumbnail" src="Thumbnails/thumbnail-12.webp" alt="">
+                </div>
+                <div class="big-second-div">
+                    <div class="div-Channel-profile" >
+                        <img class="Channel-profile" src="/Thumbnails/channel-12.jpeg" alt="">
+                    </div>
+                    <div class="Video-info">
+                        <p class="Title">
+                            What would happen if you didn’t drink water? - Mia Nacamulli
+                        </p>
+                        
+                        <p class="Channel-name">
+                            TED-Ed
+                        </p>
+                        <p class="States">
+                            12M views · 5 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </body>
+</html>
