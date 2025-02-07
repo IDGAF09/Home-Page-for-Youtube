@@ -1,0 +1,52 @@
+.Thumbnail{
+    width: 300px;
+    
+}
+.Title{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 12px;
+    display: inline-block;
+    width: 250px;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.Channel-name{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.States{
+    color: rgb(100, 100, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.Channel-profile{
+    border-radius: 50px;
+    width: 36px;
+    vertical-align: top;
+    
+}
+.Video-info{
+    background-color: gray;
+    vertical-align: top;
+
+}
+.div-Channel-profile{
+    background-color: gray;
+}
+.big-second-div{
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    
+}
+.Video{
+    margin-left: 15px;
+    display: inline-block;
+}
