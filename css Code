@@ -1,52 +1,28 @@
-.Thumbnail{
-    width: 300px;
-    
-}
-.Title{
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 12px;
-    display: inline-block;
-    width: 250px;
-    font-size: 15px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    
-}
-.Channel-name{
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(100, 100, 100);
-    margin-bottom: 0px;
-    margin-top: 10px;
-}
-.States{
-    color: rgb(100, 100, 100);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    margin-top: 5px;
-}
-.Channel-profile{
-    border-radius: 50px;
-    width: 36px;
-    vertical-align: top;
-    
-}
-.Video-info{
-    background-color: gray;
-    vertical-align: top;
-
-}
-.div-Channel-profile{
-    background-color: gray;
-}
-.big-second-div{
-    margin-top: 8px;
-    display: grid;
-    grid-template-columns: 50px 1fr;
-    
-}
-.Video{
-    margin-left: 15px;
-    display: inline-block;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="youtube1.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="/Thumbnails/hamburger-menu.svg" alt="">
+        <img class="youtube-logo" src="/Thumbnails/youtube-logo.svg" alt="">
+      </div>
+      <div class="middle-section">
+        <input type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="/Thumbnails/search (1).svg" alt="">
+        </button>
+        <button class="voice-search-button">
+           <img class="voice-search-icon" src="/Thumbnails/voice-search-icon.svg" alt=""></button>
+      </div>
+      <div class="right-section">
+        <img class="three-icon" src="/Thumbnails/upload.svg" alt="">
+        <img class="three-icon" src="/Thumbnails/youtube-apps.svg" alt="">
+        <img class="three-icon" src="/Thumbnails/notifications.svg" alt="">
+        <img class="profile-picture" src="/Thumbnails/unnamed.jpg" alt="">
+      </div>
+    </div>
+  </body>
+</html>
