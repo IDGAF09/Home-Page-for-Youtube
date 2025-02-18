@@ -45,10 +45,11 @@
     width: 30px;
     margin-right: 24px;
     margin-left: 24px;
+    cursor: pointer;
 }
 .youtube-logo{
     width: 90px;
-
+    cursor: pointer;
 }
 .voice-search-icon{
     height: 24px;
@@ -80,20 +81,31 @@ input{
     margin-right: 8px   ;
     background-color: rgb(248, 248, 248);
     margin-left: -1px;
+    position: relative;
+    cursor: pointer;
 }
 .three-icon{
     width: 24px;
     height: 24px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .my-profile-picture{
     border-radius: 50px;
     width: 32px;
     height: 32px;
+    cursor: pointer;
 }
 body{
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    background-color: rgb(249, 249, 249);
+    padding-right: 70px;
+    
     
 }
 .search-icon{
@@ -110,6 +122,8 @@ body{
     padding-bottom: 1px;
     border: none;
     align-items: center;
+    cursor: pointer;
+    position: relative;
 }
 input::placeholder{
     font-family: Arial, Helvetica, sans-serif;
@@ -118,13 +132,9 @@ input::placeholder{
 input:active{
     border-color: blue;
 }
-.side-bar{
-    height: 600px;
-    width: 72px;
-    padding-top: 4px;
-}
 .notifications-icon-container{
     position: relative;
+    cursor: pointer;
 }
 .how-many-icon{
     position: absolute;
@@ -142,4 +152,113 @@ input:active{
 .the-buttons{
     display: flex;
     flex-direction: column;
+}
+.search-button .tool-tip{
+    position: absolute;
+    background-color: rgb(113, 113, 113);
+    color: white;
+    bottom: -60px;
+    left: 3px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 3px;
+    opacity:0;
+    transition: opacity 0.15s ;
+}
+.search-button:hover .tool-tip{
+    opacity: 1;
+    pointer-events: none;
+}
+.voice-search-button .tool-tip{
+    position: absolute;
+    background-color: rgb(113, 113, 113);
+    color: white;
+    bottom: -60px;
+    left: -50px;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 3px;
+    opacity:0;
+    transition: opacity 0.15s ;
+    width: 145px;
+
+}
+.voice-search-button:hover .tool-tip{
+    opacity: 1;
+    pointer-events: none;
+}
+.three-icon-container .tool-tip{
+    position: absolute;
+    background-color: rgb(113, 113, 113);
+    color: white;
+    bottom: -60px;
+    right: -12px;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 3px;
+    opacity:0;
+    transition: opacity 0.15s ;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.three-icon-container:hover .tool-tip{
+    opacity: 1;
+    pointer-events: none;
+}
+.three-icon-container{
+    position: relative;
+}
+.three-icon-container2 .tool-tip{
+    position: absolute;
+    background-color: rgb(113, 113, 113);
+    color: white;
+    bottom: -60px;
+    right: -32px;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 3px;
+    opacity:0;
+    transition: opacity 0.15s ;
+    width: 75px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+}
+.three-icon-container2:hover .tool-tip{
+    opacity: 1;
+    pointer-events: none;
+}
+.three-icon-container2{
+    position: relative;
+}
+.notifications-icon-container .tool-tip{
+    position: absolute;
+    background-color: rgb(113, 113, 113);
+    color: white;
+    bottom: -60px;
+    right: -32px;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 3px;
+    opacity:0;
+    transition: opacity 0.15s ;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+}
+.notifications-icon-container:hover .tool-tip{
+    opacity: 1;
+    pointer-events: none;
+}
+.three-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
