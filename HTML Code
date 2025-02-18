@@ -19,27 +19,75 @@
         <input type="text" placeholder="Search">
         <button class="search-button">
           <img class="search-icon" src="/Thumbnails/search (1).svg" alt="">
+          <div class="tool-tip">
+            Search
+          </div>
         </button>
         <button class="voice-search-button">
-           <img class="voice-search-icon" src="/Thumbnails/voice-search-icon.svg" alt=""></button>
+           <img class="voice-search-icon" src="/Thumbnails/voice-search-icon.svg" alt="">
+           <div class="tool-tip">
+            Search With your voice
+           </div>
+          </button>
       </div>
       <div class="right-section">
-        <img class="three-icon" src="/Thumbnails/upload.svg" alt="">
-        <img class="three-icon" src="/Thumbnails/youtube-apps.svg" alt="">
+        <div class="three-icon-container">
+          <img class="three-icon" src="/Thumbnails/upload.svg" alt="">
+          <div class="tool-tip">
+            Creat
+          </div>
+        </div>
+        <div class="three-icon-container2">
+          <img class="three-icon" src="/Thumbnails/youtube-apps.svg" alt="">
+          <div class="tool-tip">
+            Youtube-apps
+          </div>
+        </div>
         <div class="notifications-icon-container">
           <img class="three-icon" src="/Thumbnails/notifications.svg" alt="">
           <div class="how-many-icon">
             3
           </div>
+          <div class="tool-tip">
+            Notifications
+          </div>
         </div>
         <img class="my-profile-picture" src="/Thumbnails/unnamed.jpg" alt="">
       </div>
     </div>
-    
+    <div class="side-bar">
+      <div class="side-bar-link">
+        <img src="/Thumbnails/home.svg" alt="">
+        Home
+      </div>
+      <div class="side-bar-link">
+        <img src="/Thumbnails/explore.svg" alt="">
+        Explore
+      </div>
+      <div class="side-bar-link">
+        <img src="/Thumbnails/subscriptions.svg" alt="">
+        Subscriptions
+      </div>
+      <div class="side-bar-link">
+        <img src="/Thumbnails/originals.svg" alt="">
+        Originals
+      </div>
+      <div class="side-bar-link">
+        <img src="/Thumbnails/youtube-music.svg" alt="">
+        Youtube-music
+      </div>
+      <div class="side-bar-link">
+        <img src="/Thumbnails/library.svg"  alt="">
+        Library
+      </div>
+    </div>
     <div class="video-grid">
       <div class="video-preview">
         <div class="thumbnail-row">
-          <img class="thumbnail" src="/Thumbnails/thumbnail-1.webp" alt="">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+            <img class="thumbnail" src="/Thumbnails/thumbnail-1.webp" alt="">
+          </a>
+          
           <div class="video-time">
             14:20
           </div>
@@ -65,7 +113,9 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="/Thumbnails/thumbnail-2.webp">
+            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+              <img class="thumbnail" src="/Thumbnails/thumbnail-2.webp">
+            </a>
             <div class="video-time">
               8:22
             </div>
@@ -90,7 +140,9 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="/Thumbnails/download.jpeg">
+            <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+              <img class="thumbnail" src="/Thumbnails/download.jpeg">
+            </a>
             <div class="video-time">
               9:13
             </div>
@@ -115,7 +167,9 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="/Thumbnails/thumbnail-4.webp">
+            <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+              <img class="thumbnail" src="/Thumbnails/thumbnail-4.webp">
+            </a>
             <div class="video-time">
               22:09
             </div>
@@ -140,7 +194,9 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="/Thumbnails/thumbnail-5.webp">
+            <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+              <img class="thumbnail" src="/Thumbnails/thumbnail-5.webp">
+            </a>
             <div class="video-time">
               11:17
             </div>
@@ -165,7 +221,9 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="/Thumbnails/thumbnail-6.webp">
+            <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+              <img class="thumbnail" src="/Thumbnails/thumbnail-6.webp">
+            </a>
             <div class="video-time">
               19:59
             </div>
@@ -190,7 +248,9 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="/Thumbnails/thumbnail-7.webp">
+            <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">
+              <img class="thumbnail" src="/Thumbnails/thumbnail-7.webp">
+            </a>
             <div class="video-time">
               10:13
             </div>
@@ -215,7 +275,9 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="/Thumbnails/thumbnail-8.webp">
+            <a href="https://www.youtube.com/watch?v=lFm4EM1juls">
+              <img class="thumbnail" src="/Thumbnails/thumbnail-8.webp">
+            </a>
             <div class="video-time">
               7:12
             </div>
@@ -240,7 +302,9 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="/Thumbnails/thumbnail-9.webp">
+            <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+              <img class="thumbnail" src="/Thumbnails/thumbnail-9.webp">
+            </a>
             <div class="video-time">
               13:17
             </div>
@@ -265,7 +329,9 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="/Thumbnails/thumbnail-10.webp">
+            <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o">
+              <img class="thumbnail" src="/Thumbnails/thumbnail-10.webp">
+            </a>
             <div class="video-time">
               7:53
             </div>
@@ -290,7 +356,9 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="/Thumbnails/thumbnail-11.webp">
+            <a href="https://www.youtube.com/watch?v=0nZuYyXET3s">
+              <img class="thumbnail" src="/Thumbnails/thumbnail-11.webp">
+            </a>
             <div class="video-time">
               4:10
             </div>
@@ -315,7 +383,9 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="/Thumbnails/thumbnail-12.webp">
+            <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+              <img class="thumbnail" src="/Thumbnails/thumbnail-12.webp">
+            </a>
             <div class="video-time">
               4:51
             </div>
