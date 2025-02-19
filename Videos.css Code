@@ -8,7 +8,7 @@ div{
     font-weight: 500;
     font-size: 14px;
     margin-top: 0px;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
     line-height: 20px;
 }
 .video-info-grid{
@@ -21,14 +21,15 @@ div{
     cursor: pointer;
 }
 .thumbnail-row{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
 }
 .video-author{
     color: rgb(96, 96, 96);
-    margin-bottom: 4px;
+    margin-bottom: 5px;
     font-size: 12px;
     cursor: pointer;
+    margin-top: 8px;
 }
 .video-stats{
     color: rgb(96, 96, 96);
@@ -40,9 +41,9 @@ div{
     display: grid;
     grid-template-columns: 340px 340px 340px 340px;
     column-gap: 15px;
-    row-gap: 15px;
+    row-gap: 20px;
     justify-content: space-between;
-    padding-top: 90px;
+    padding-top: 80px;
     padding-left: 95px;
 }
 .video-info{
@@ -58,4 +59,7 @@ div{
     font-size: 12px;
     font-family: Roboto,Arial ;
 
+}
+.channel-picture{
+    position: relative;
 }
