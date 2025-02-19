@@ -205,10 +205,11 @@ input:active{
     transition: opacity 0.15s ;
     padding-left: 10px;
     padding-right: 10px;
+    pointer-events: none;
 }
 .three-icon-container:hover .tool-tip{
     opacity: 1;
-    pointer-events: none;
+    
 }
 .three-icon-container{
     position: relative;
@@ -229,10 +230,11 @@ input:active{
     padding-left: 5px;
     padding-right: 5px;
     display: flex;
+    pointer-events: none;
 }
 .three-icon-container2:hover .tool-tip{
     opacity: 1;
-    pointer-events: none;
+    
 }
 .three-icon-container2{
     position: relative;
@@ -252,10 +254,11 @@ input:active{
     padding-left: 5px;
     padding-right: 5px;
     display: flex;
+    pointer-events: none;
 }
 .notifications-icon-container:hover .tool-tip{
     opacity: 1;
-    pointer-events: none;
+    
 }
 .three-icon-container{
     display: flex;
