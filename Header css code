@@ -167,10 +167,10 @@ input:active{
     border-radius: 3px;
     opacity:0;
     transition: opacity 0.15s ;
+    pointer-events: none;
 }
 .search-button:hover .tool-tip{
     opacity: 1;
-    pointer-events: none;
 }
 .voice-search-button .tool-tip{
     position: absolute;
@@ -185,11 +185,11 @@ input:active{
     opacity:0;
     transition: opacity 0.15s ;
     width: 145px;
-
+    pointer-events: none;
 }
 .voice-search-button:hover .tool-tip{
     opacity: 1;
-    pointer-events: none;
+
 }
 .three-icon-container .tool-tip{
     position: absolute;
