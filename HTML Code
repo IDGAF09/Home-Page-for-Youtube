@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="Header.css">
     <link rel="stylesheet" href="videos.css">
     <link rel="stylesheet" href="Side-Bar.css">
+    <link rel="stylesheet" href="Video-Futures.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -93,8 +94,24 @@
           </div>
         </div>
         <div class="video-info-grid">
-          <div class="channel-pictures">
-            <img class="profile-picture" src="/Thumbnails/channel-1.jpeg" alt="">
+          <div class="channel-picture">
+            <div class="profile-picture-container">
+              <a href="https://www.youtube.com/c/mkbhd">
+                <img class="profile-picture" src="/Thumbnails/channel-1.jpeg">
+              </a>
+              <div class="channel-tooltip">
+                <img class="channel-tooltip-picture" src="/Thumbnails/channel-1.jpeg" alt="">
+                <div>
+                  <div class="channel-tooltip-name">
+                    Marques Brownlee
+                  </div>
+                  <div class="channel-tooltip-stats">
+                    19.8M subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+            
           </div>
           <div class="video-info">
             <p class="video-title">
@@ -110,7 +127,6 @@
           </div>
         </div>
 
-
         <div class="video-preview">
           <div class="thumbnail-row">
             <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
@@ -122,7 +138,23 @@
           </div>
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="/Thumbnails/channel-2.jpeg">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/markiplier">
+                  <img class="profile-picture" src="/Thumbnails/channel-2.jpeg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="/Thumbnails/channel-2.jpeg" alt="">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Markiplier
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      37.3M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <div class="video-info">
               <p class="video-title">
@@ -140,7 +172,7 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+            <a href="https://www.youtube.com/user/SSSniperWolf">
               <img class="thumbnail" src="/Thumbnails/download.jpeg">
             </a>
             <div class="video-time">
@@ -149,7 +181,23 @@
           </div>
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="/Thumbnails/channel-3.jpeg">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/user/SSSniperWolf">
+                  <img class="profile-picture" src="/Thumbnails/channel-3.jpeg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="/Thumbnails/channel-3.jpeg" alt="">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      SSSniperWolf
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      35M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <div class="video-info">
               <p class="video-title">
@@ -176,7 +224,23 @@
           </div>
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="/Thumbnails/channel-4.jpeg">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/veritasium">
+                  <img class="profile-picture" src="/Thumbnails/channel-4.jpeg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="/Thumbnails/channel-4.jpeg" alt="">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Veritasium
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      17.3M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <div class="video-info">
               <p class="video-title">
@@ -203,7 +267,23 @@
           </div>
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="/Thumbnails/channel-5.jpeg">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/CSDojo">
+                  <img class="profile-picture" src="/Thumbnails/channel-5.jpeg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="/Thumbnails/channel-5.jpeg" alt="">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      CS Dojo
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      1.95M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <div class="video-info">
               <p class="video-title">
@@ -230,7 +310,23 @@
           </div>
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="/Thumbnails/channel-6.jpeg">
+              <div class="profile-picture-container">
+                <a href=https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+                  <img class="profile-picture" src="/Thumbnails/channel-6.jpeg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="/Thumbnails/channel-6.jpeg" alt="">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      MrBeast
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      363M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <div class="video-info">
               <p class="video-title">
@@ -257,7 +353,23 @@
           </div>
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="/Thumbnails/channel-7.jpeg">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/channel/UCP5tjEmvPItGyLhmjdwP7Ww">
+                  <img class="profile-picture" src="/Thumbnails/channel-7.jpeg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="/Thumbnails/channel-7.jpeg" alt="">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      RealLifeLore
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      7.73M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <div class="video-info">
               <p class="video-title">
@@ -284,7 +396,23 @@
           </div>
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="/Thumbnails/channel-8.jpeg">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/channel/UCHAK6CyegY22Zj2GWrcaIxg">
+                  <img class="profile-picture" src="/Thumbnails/channel-8.jpeg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="/Thumbnails/channel-8.jpeg" alt="">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Tech Vision
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      842K subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <div class="video-info">
               <p class="video-title">
@@ -311,7 +439,23 @@
           </div>
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="/Thumbnails/channel-9.jpeg">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS">
+                  <img class="profile-picture" src="/Thumbnails/channel-9.jpeg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="/Thumbnails/channel-9.jpeg" alt="">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      ThenX
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      7.81M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <div class="video-info">
               <p class="video-title">
@@ -338,7 +482,23 @@
           </div>
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="/Thumbnails/channel-10.jpeg">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/user/businessinsider">
+                  <img class="profile-picture" src="/Thumbnails/channel-10.jpeg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="/Thumbnails/channel-10.jpeg" alt="">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Business Insider
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      9.88M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <div class="video-info">
               <p class="video-title">
@@ -365,7 +525,23 @@
           </div>
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="/Thumbnails/channel-11.jpeg">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/Destinationtips">
+                  <img class="profile-picture" src="/Thumbnails/channel-11.jpeg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="/Thumbnails/channel-11.jpeg" alt="">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Destination Tips
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      282K subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <div class="video-info">
               <p class="video-title">
@@ -383,7 +559,7 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+            <a href="https://www.youtube.com/c/markiplier">
               <img class="thumbnail" src="/Thumbnails/thumbnail-12.webp">
             </a>
             <div class="video-time">
@@ -392,7 +568,23 @@
           </div>
           <div class="video-info-grid">
             <div class="channel-picture">
-              <img class="profile-picture" src="/Thumbnails/channel-12.jpeg.jpeg">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/markiplier">
+                  <img class="profile-picture" src="/Thumbnails/channel-12.jpeg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="/Thumbnails/channel-12.jpeg" alt="">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      TED-Ed
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      21,1M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <div class="video-info">
               <p class="video-title">
