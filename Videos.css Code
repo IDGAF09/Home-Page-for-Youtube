@@ -1,8 +1,11 @@
 div{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', arial sans-serif;
+}
+body{
+    background-color: rgb(249, 249, 249);
 }
 .thumbnail{
-    width: 340px;
+    width: 100% ;
 }
 .video-title{
     font-weight: 500;
@@ -13,7 +16,7 @@ div{
 }
 .video-info-grid{
     display: grid;
-    grid-template-columns: 50px 1fr;
+    grid-template-columns: 48px 1fr;
 }
 .profile-picture{
     width: 36px;
@@ -39,15 +42,22 @@ div{
 }
 .video-grid{
     display: grid;
-    grid-template-columns: 340px 340px 340px 340px;
-    column-gap: 15px;
-    row-gap: 20px;
-    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
     padding-top: 80px;
     padding-left: 95px;
+    padding-right: 20px;
 }
-.video-info{
-  width: 280px;
+@media (max-width:850px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width:1210px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 .video-time{
     color: white;
