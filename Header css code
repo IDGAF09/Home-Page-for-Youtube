@@ -99,15 +99,6 @@ input{
     height: 32px;
     cursor: pointer;
 }
-body{
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    background-color: rgb(249, 249, 249);
-    padding-right: 70px;
-    
-    
-}
 .search-icon{
     width: 24px;
     height: 24px;
@@ -209,7 +200,7 @@ input:active{
 }
 .three-icon-container:hover .tool-tip{
     opacity: 1;
-    
+
 }
 .three-icon-container{
     position: relative;
